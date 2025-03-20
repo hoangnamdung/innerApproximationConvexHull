@@ -99,7 +99,7 @@ function createNonagonData(nonagon::Matrix{Float64}, N::Int)
 end
 
 function main()
-    sizes = [100_000, 215_000]
+    sizes = [100_000]
     # sizes = [100_000, 215_000, 462_000, 1_000_000, 2_150_000, 4_620_000, 10_000_000, 21_500_000, 46_200_000]
     setNumbers = 10
 
