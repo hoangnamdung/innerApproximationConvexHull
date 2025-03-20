@@ -115,7 +115,7 @@ function main()
                     a = 1000
                     b = 600
                     println("create data in an ellipse")
-                    points1 = createEllipseData(sizes[i], 1000, 600)
+                    points1 = createEllipseData(sizes[i], a, b)
                     points = rotatePoints(points1, theta)
                 elseif (dataType == 2)
                     x_min = -1000
